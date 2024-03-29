@@ -8,7 +8,8 @@ public enum Salaries {
 
     private int salary;
 
-    Salaries(int i) {
+    Salaries(int salary) {
+        this.salary = salary;
     }
 
 
